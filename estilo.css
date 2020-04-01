@@ -1,3 +1,41 @@
+/* LAYOUT */ 
+
+html, body, .capa {
+    height: 100%;
+}
+body {
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    background:url('imagens/capa.png'), url('imagens/ruido.png'), linear-gradient(50deg,#ff4169,#7c26f8);
+}
+
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size:50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#rodape h4 {
+    color: #919496;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
 /* HEADER */
 
 .img-logo {
@@ -25,10 +63,101 @@ nav.navbar-transparente {
     margin: 15px 10px;
 } 
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
     color:#fff;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover {
     color:#1ED760;
+    background: none;
+}
+
+/* CAPA */ 
+
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Buttons */ 
+
+.btn-custom {
+    color: #fff;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    margin: 0px 15px ;
+    transition:background 0.4s, color 0.4s;
+}
+
+.btn-roxo {
+    background: #7c25f8;
+}
+
+.btn-roxo:hover {
+    background: #6207e3;
+    color: #fff;
+}
+
+.btn-branco {
+    border: solid 2px #fff ;
+}
+
+.btn-branco:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* CONTENT SERVICES */ 
+
+.albuns {
+    padding: 10px 0px 10px 0px;
+}
+
+#services {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#services h2, #services h3 {
+color: #7c25f8;
+}
+
+/* CONTENT Recurses */ 
+#recurses {
+    padding-top:20px;
+    padding-bottom:20px;
+    color: #fff;
+}
+
+#recurses h3 {
+    color: #9bf0e1;
+}
+
+.rotate {
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg); /*opera safari chrome */
+    padding-left: 80px;
+}
+
+/* FOOTER */ 
+
+footer {
+    background-color: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+.social-icons {
+    float: right;
 }
