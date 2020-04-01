@@ -2,6 +2,7 @@
 
 html, body, .capa {
     height: 100%;
+    overflow: auto;
 }
 body {
     overflow-x: hidden;
@@ -160,4 +161,18 @@ footer {
 
 .social-icons {
     float: right;
+}
+
+/* MEDIA QUERIES */ 
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 58px;
+    }
+
+    .btn-custom {
+        margin: 6px;
+    }
+
+    
 }
