@@ -1,1 +1,1 @@
-Simple Spotify Project Using Bootstrap
+Simple Spotify Project Using Bootstrap! 
