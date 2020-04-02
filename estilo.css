@@ -163,6 +163,11 @@ footer {
     position: relative;
 }
 
+.author, .author a {
+    color: #fff;
+    text-align: center;
+}
+
 .social-icons {
     float: right;
 }
