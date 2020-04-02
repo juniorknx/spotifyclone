@@ -174,9 +174,25 @@ footer {
         font-size: 58px;
     }
 
+    h2 {
+       font-size:36px; 
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
     .btn-custom {
         margin: 6px;
     }
+
+    .icons-social {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+   
 
 
 }
